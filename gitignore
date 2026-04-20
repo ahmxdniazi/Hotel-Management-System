@@ -1,0 +1,91 @@
+# =====================
+# Java / Compiled Files
+# =====================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Build output
+build/
+dist/
+out/
+target/
+
+# =====================
+# NetBeans IDE
+# =====================
+nbproject/private/
+nbproject/Makefile-*.mk
+nbproject/Package-*.bash
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# =====================
+# IntelliJ IDEA
+# =====================
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# =====================
+# Eclipse
+# =====================
+.classpath
+.project
+.settings/
+bin/
+
+# =====================
+# VS Code
+# =====================
+.vscode/
+
+# =====================
+# Database / Secrets
+# =====================
+# NEVER commit credentials
+DBConfig.java
+config.properties
+*.env
+.env
+.env.local
+
+# =====================
+# OS Files
+# =====================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# =====================
+# Logs & Temp
+# =====================
+*.log
+*.tmp
+*.temp
+logs/
+
+# =====================
+# Libraries (commit only your own code)
+# =====================
+lib/*.jar
+# Exception: uncomment if you want to include libs
+# !lib/mysql-connector-java.jar
